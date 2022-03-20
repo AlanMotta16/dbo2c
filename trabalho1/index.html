@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML5</title>
+        <meta charset="utf-8">
+        <style>
+            table, th, td{border:1px solid black;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <!--...-->
+        </header>
+        <nav>
+            <!--...-->
+        </nav>
+        <main>
+            <!--título-->
+            <h1>OLÁ, ESTE É O MEU SITE</h1>
+            <p>Aqui você encontrará <b>informações que foram pedidas</b>, e que talvez sirvam algum sentido além do trabalho <i>escolar</i> para você, o <i><b>leitor</b></i>.</p>
+            <!--imagens-->
+            <a href="https://ifrs.edu.br/"><img src="./finchwolv.jpg" alt="Finch is the best" width="100" height="100"></a> <br>
+            <figure>
+                <img src="img/finchmando.jpg" alt="Joshua is lucky" width="250" height="340"/>
+                <figcaption>This is a piece that my friend Joshua got from David Finch. It is a drawing of the Mandalorian</figcaption>
+            </figure>
+            <!--vídeo-->
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/MFfGtMeGvXo" title="very proud moment" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe> <br>
+            <!--lista-->
+            <ul>
+                <li>Frutas
+                    <ol type="1">
+                        <li>Banana</li>
+                        <li>Maçã</li>
+                        <li>Abacate</li>
+                    </ol>
+                </li>
+                <li>Vegetais
+                    <ol type="I">
+                        <li>Cebola</li>
+                        <li>Pimentão
+                            <ol type="a">
+                                <li>Verde</li>
+                                <li>Vermelho</li>
+                                <li>Amarelo</li>
+                            </ol>
+                        </li>
+                        <li>Tomate</li>
+                    </ol>
+                </li>
+            </ul> <br>
+            <!--tabela-->
+            <table>
+                <caption><b>Lucro por Mês</b></caption>
+                <thead>
+                    <tr>
+                        <th>Mês</th>
+                        <th colspan="2"><b>Frutas</b></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th><b>Banana</b></th>
+                        <th><b>Maçã</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Janeiro</td>
+                        <td>100</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Fevereiro</td>
+                        <td>120</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Março</td>
+                        <td>120</td>
+                        <td>150</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td>340</td>
+                        <td>300</td>
+                    </tr>
+                </tfoot>
+            </table> <br>
+            <!--formulário-->
+            <form>
+                <fieldset>
+                    <legend><!--legenda--></legend>
+                    <label for="tel">Seu número de telefone</label>
+                    <input type="tel" id="tel"><br>
+                    <label for="mail">Seu email</label>
+                    <input type="email" id="mail"><br>
+                    <label for="num">Escolha um número qualquer</label>
+                    <input type="number" id="num"><br>
+                    <input type = "submit" value = "Isso foi só a primeira parte"><br>
+                </fieldset>
+                <fieldset>
+                    <legend><!--legenda--></legend>
+                    <label for="dat">Escolha seu aniversário, <b>POR FAVOR</b></label>
+                    <input type="date" id="dat"><br>
+                    <label for="rang">Cara, agora eu nem sei mais</label>
+                    <input type="range" id="rang"><br>
+                    <label for="fil">Me dê um de seus documentos</label>
+                    <input type="file" id="fil"><br>
+                    <input type = "submit" value = "Obrigado por responder"><br>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <!--...-->
+        </footer>
+    </body>
+</html>
